@@ -1,0 +1,101 @@
+,Ticker,Date,DepartureCity,ArrivalCity
+0,CP,2022-10-06,Chicago/Prospect Heights/Wheeling,Minneapolis
+1,TGT,2022-10-06,Carlsbad,Santa Monica
+2,HUM,2022-10-06,Louisville,Washington
+3,CLR,2022-10-06,,
+4,ASTE,2022-10-06,Denver,Albuquerque
+5,MGA,2022-10-06,Pontiac,Toronto
+6,DUK,2022-10-06,Washington,Charlotte
+7,HD,2022-10-06,Hyannis,Atlanta
+8,RMD,2022-10-06,Houston,Geiger
+9,AFL,2022-10-06,Morristown,Morristown
+10,AFL,2022-10-06,Morristown,Morristown
+11,GPC,2022-10-06,,Atlanta
+12,ASTE,2022-10-06,Lincoln,Denver
+13,GLW,2022-10-06,,Horseheads
+14,TGT,2022-10-06,Colorado Springs,Carlsbad
+15,WIRE,2022-10-06,Oakland,Dallas
+16,GLW,2022-10-06,Albany,Binghamton
+17,COST,2022-10-06,Baton Rouge,Parks
+18,DUK,2022-10-06,Charlotte,Washington
+19,NEE,2022-10-06,Westhampton Beach,West Palm Beach
+20,UNM,2022-10-06,Minneapolis,Ringgold
+21,D,2022-10-06,,Richmond
+22,GPC,2022-10-06,Atlanta,Bonifay
+23,NEE,2022-10-06,Greenville,West Palm Beach
+24,JNJ,2022-10-06,Washington,Trenton
+25,AFL,2022-10-06,Lumberton,Morristown
+26,AFL,2022-10-06,Lumberton,Morristown
+27,GLW,2022-10-06,Teterboro,Washington
+28,JNJ,2022-10-06,Trenton,Washington
+29,VFC,2022-10-06,Denver,Winston Salem
+30,UNM,2022-10-06,,Minneapolis
+31,MUR,2022-10-06,Denver,Wapakoneta
+32,TGT,2022-10-06,Denver,Colorado Springs
+33,ARMK,2022-10-06,Bridgeport,Philadelphia
+34,GLW,2022-10-06,,Albany
+35,AXP,2022-10-06,,Oxford
+36,GLW,2022-10-06,,Lawrenceville
+37,SPXC,2022-10-06,Allentown,Monroe
+38,GLW,2022-10-06,Elmira,Teterboro
+39,GEO,2022-10-06,,New Orleans
+40,AFL,2022-10-06,Lumberton,Hammonton
+41,AFL,2022-10-06,Lumberton,Hammonton
+42,OC,2022-10-06,Columbus,Toledo
+43,NEE,2022-10-06,Portsmouth,Westhampton Beach
+44,GLW,2022-10-06,San Francisco,Addison
+45,ROK,2022-10-06,Milwaukee,Portland
+46,NEE,2022-10-06,Portsmouth,Spartanburg
+47,HD,2022-10-06,,Hyannis
+48,COST,2022-10-06,New Orleans,Baton Rouge
+49,MGA,2022-10-06,Toronto,Pontiac
+50,GLW,2022-10-06,Corning,
+51,OC,2022-10-06,Asheville,Columbus
+52,GLW,2022-10-06,Corning,
+53,UNM,2022-10-06,Chattanooga,
+54,MUR,2022-10-06,Santa Ana,Denver
+55,TFX,2022-10-06,,Cincinnati
+56,DGX,2022-10-06,Manassas,Reading
+57,OC,2022-10-06,,Hendersonville
+58,AFL,2022-10-06,Morristown,Lumberton
+59,AFL,2022-10-06,Morristown,Lumberton
+60,OC,2022-10-06,Waterville,Fletcher
+61,UNT,2022-10-06,Midland,Austin
+62,AXP,2022-10-06,Sarasota/Bradenton,
+63,JNJ,2022-10-06,Trenton,Washington
+64,JNJ,2022-10-06,Trenton,Santa Ana
+65,MUR,2022-10-06,Las Vegas,Santa Ana
+66,HD,2022-10-06,Atlanta,Washington
+67,GLW,2022-10-06,Charlotte,Lawrenceville
+68,JNJ,2022-10-06,West Chester,Trenton
+69,UNT,2022-10-06,Austin,Odessa
+70,ASTE,2022-10-06,,Lincoln
+71,GT,2022-10-06,,
+72,JNJ,2022-10-06,Trenton,West Chester
+73,GLW,2022-10-06,Morristown,Columia Cross Roads
+74,AXP,2022-10-06,,Sarasota/Bradenton
+75,DGX,2022-10-06,Cincinnati,Manassas
+76,GLW,2022-10-06,Horseheads,Saginaw
+77,AFL,2022-10-06,Morristown,Morristown
+78,AFL,2022-10-06,Morristown,Morristown
+79,GLW,2022-10-06,Sullivanville,Charlotte
+80,ARMK,2022-10-06,Philadelphia,Bridgeport
+81,HD,2022-10-06,Atlanta,Portland
+82,GLW,2022-10-06,Elmira,Morristown
+83,D,2022-10-06,Richmond,Bay View
+84,DGX,2022-10-06,Chicago/West Chicago,Cincinnati
+85,DGX,2022-10-06,Cincinnati,Chicago/West Chicago
+86,ENB,2022-10-05,,Calgary
+87,GLW,2022-10-05,Los Angeles,San Francisco
+88,UAA,2022-10-05,Teterboro,Baltimore
+89,DGX,2022-10-05,Reading,Cincinnati
+90,JNJ,2022-10-05,Washington,Trenton
+91,COST,2022-10-05,Chicago/Aurora,Washington
+92,JNJ,2022-10-05,Trenton,Washington
+93,TGT,2022-10-05,Tulsa,Denver
+94,GLW,2022-10-05,Raleigh/Durham,Corning
+95,GLW,2022-10-05,Raleigh/Durham,Lawrenceville
+96,GLW,2022-10-05,Kansas City,Los Angeles
+97,SU,2022-10-05,,Calgary
+98,GLW,2022-10-05,,Spencer
+99,MGA,2022-10-05,Pontiac,Toronto
