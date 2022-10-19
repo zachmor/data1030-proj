@@ -1,12 +1,9 @@
 import json
-from pip import main
-import quiverquant
-from alpha_vantage.timeseries import TimeSeries
-import matplotlib.pyplot as plt
-import pandas as pd
 import os
 import time
-import requests
+import quiverquant
+from alpha_vantage.timeseries import TimeSeries
+import pandas as pd
 
 
 class Downloader:
@@ -35,6 +32,7 @@ class Downloader:
                     print("downloaded " + method)
                 except NameError:
                     print("couldnt download " + method)
+
             else:
                 print("NOT CALLABLE ", method)
         return
@@ -99,22 +97,3 @@ class Downloader:
         # plt.title('Intraday Times Series for the MSFT stock (30 min)')
         # plt.show()
         # return
-
-def main():
-    QUIVER_TOKEN = "caccb67ee0d87402ef509d776e240dcd9a728221"
-    ALPHA_TOKEN = "IVC83T6ZSTC846F9"
-    TICKER = "msft"
-
-    Load = Downloader(quiver_token=QUIVER_TOKEN, alpha_token=ALPHA_TOKEN)
-
-    # Load.quiver_recent()
-    Load.alpha(TICKER)
-    # Load.quiver(TICKER)
-
-
-
-
-    print("Hello World!")
-
-if __name__ == "__main__":
-    main()

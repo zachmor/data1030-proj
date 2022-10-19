@@ -32,6 +32,7 @@ class Downloader:
                     print("downloaded " + method)
                 except NameError:
                     print("couldnt download " + method)
+
             else:
                 print("NOT CALLABLE ", method)
         return
