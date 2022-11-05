@@ -4,9 +4,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from math import sqrt, floor
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler, OneHotEncoder, OrdinalEncoder, MinMaxScaler
+# from sklearn.compose import ColumnTransformer
+# from sklearn.pipeline import Pipeline
+# from sklearn.preprocessing import StandardScaler, OneHotEncoder, OrdinalEncoder, MinMaxScaler
 
 def quiver_recent_metadata():
 
@@ -277,7 +277,7 @@ api_time = {
     'quiver' : 'Date'
 }
 
-alpha = pd.read_csv("data/alpha/MSFT.csv", index_col=api_time['alpha'], parse_dates=[api_time['alpha']])
+alpha = pd.read_csv("data/alpha/MSFT.csv", index_col=api_time['alpha'], parse_dates[api_time['alpha']])
 
 
 

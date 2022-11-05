@@ -63,6 +63,8 @@ class Downloader:
                     print("couldnt download " + method)
             else:
                 print("NOT CALLABLE ", method)
+                
+        return
 
 
 # Using 30 min Intraday Time Series 
@@ -75,7 +77,7 @@ class Downloader:
         try:
             os.mkdir("data/alpha")
         except FileExistsError:
-            pass
+            print('overwriting data/alpha/MSFT.csv')
 
         months = ["month" + str(i + 1) for i in range(12)]
         years = ["year1", "year2"]
@@ -87,13 +89,13 @@ class Downloader:
             if i%5 == 0 and i != 0:
                 time.sleep(60)
             data = self.alpha_client.get_intraday_extended(
-                symbol=ticker.upper(),interval='1min', slice=s)
+                symbol=ticker.upper(),interval='30min', slice=s)
             columns = next(data[0])
             slices.append(pd.DataFrame(data=data[0], columns=columns))
 
         df = pd.concat(slices)
-        df.to_csv("data/alpha/" + ticker.upper() + ".csv")
-
+        df.to_csv("data/alpha/" + ticker.upper() + "2.csv")
+        print('Downloaded alphavantage intraday 30min freq data to data/alpha/' + ticker+'.csv')
         # plt.title('Intraday Times Series for the MSFT stock (30 min)')
         # plt.show()
-        # return
+        return
